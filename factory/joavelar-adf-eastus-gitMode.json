@@ -1,0 +1,9 @@
+{
+	"name": "joavelar-adf-eastus-gitMode",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "258be6a3-4714-4437-a82a-f3a367abf6a2",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
