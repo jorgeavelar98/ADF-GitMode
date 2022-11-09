@@ -10,10 +10,10 @@
 			},
 			"airflowProperties": {
 				"airflowVersion": "2.2.2",
+				"airflowWebUrl": "https://joavelar-adf-eastus--airflowir-test1-52ea.eastus.airflow.svc.datafactory.azure.com/login/",
 				"airflowRequirements": [],
 				"enableAADIntegration": false,
 				"userName": "hello",
-				"password": "world",
 				"airflowEntityReferences": []
 			}
 		}
