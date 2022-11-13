@@ -1,0 +1,21 @@
+{
+	"name": "AirflowIR-test2",
+	"properties": {
+		"type": "Airflow",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"computeSize": "Small",
+				"extraNodes": 1
+			},
+			"airflowProperties": {
+				"airflowVersion": "2.2.2",
+				"airflowRequirements": [],
+				"enableAADIntegration": false,
+				"userName": "hello",
+				"password": "there",
+				"airflowEntityReferences": []
+			}
+		}
+	}
+}
