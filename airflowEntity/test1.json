@@ -2,6 +2,6 @@
 	"name": "test1",
 	"properties": {
 		"subType": "DAG",
-		"fileContent": "#hello\nfrom datetime import datetime\nfrom airflow import DAG\nfrom airflow.operators.dummy_operator import DummyOperator\nfrom airflow.operators.python_operator import PythonOperator\n\ndef print_hello():\n    return 'Hello world from first Airflow DAG!'\n\ndag = DAG('hello_world', description='Hello World DAG',\n    schedule_interval='0 12 * * *',\n    start_date=datetime(2017, 3, 20), catchup=False)\n\n#ello\nhello_operator = PythonOperator(task_id='hello_task', python_callable=print_hello, dag=dag)\n\nhello_operator"
+		"fileContent": "#hello\nfrom datetime import datetime\nfrom airflow import DAG\nfrom airflow.operators.dummy_operator import DummyOperator\nfrom airflow.operators.python_operator import PythonOperator\n\ndef print_hello():\n    return 'Hello world from first Airflow DAG!'\n\ndag = DAG('hello_world', description='Hello World DAG',\n    schedule_interval='0 12 * * *',\n    start_date=datetime(2017, 3, 20), catchup=False)\n\n\n\n\n\nhello_operator = PythonOperator(task_id='hello_task', python_callable=print_hello, dag=dag)\n\nhello_operator"
 	}
 }
